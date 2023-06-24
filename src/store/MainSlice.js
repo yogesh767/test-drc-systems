@@ -14,6 +14,7 @@ export const mainSlice = createSlice({
         },
         logout: (state) => {
             sessionStorage.clear()
+            state.todos=[];
             state.loggedIn = false;
         },
         addTodo:(state, action)=>{

@@ -14,7 +14,7 @@ function Login() {
       dispatch(loginUser())
     }
     else {
-      alert("checkc username or pasword")
+      alert("Invalid username or pasword")
     }
 
   }
